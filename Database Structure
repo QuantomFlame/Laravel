@@ -1,0 +1,19 @@
+- users -
+    id
+
+    username
+    first_name
+    middle_name
+    last_name
+
+    birthday
+    email
+    password
+
+    is_active
+    is_verified
+        avatar
+
+    gender
+    address
+    telephone

@@ -1,0 +1,161 @@
+body {
+    font-family: 'Open Sans';
+}
+
+:root {
+    --authentication-forms: #3C4F76;
+}
+
+/* Navbar */
+.navbar-color {
+    background: #383F51;
+}
+
+/* /Navbar/ */
+
+/* Sign Up | Sign In */
+.sign-up {
+    background: var(--authentication-forms);
+}
+
+.sign-in {
+    background: var(--authentication-forms);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-shadow: 0 0 3px #383F51;
+}
+
+.form-control:focus {
+    color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 79, 118, 0.25);
+}
+
+.section-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.field-icon {
+    float: right;
+    margin-right: 8px;
+    margin-top: -26px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #DDDBF1;
+    background-clip: border-box;
+    border-radius: 0;
+    box-shadow: 0 0 10px #DDDBF1;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #3C4F76;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 0;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-custom:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 79, 118, 0.25);
+}
+
+.btn-custom:hover {
+    background: #383F51;
+}
+
+.error-message {
+    color: #3C4F76;
+}
+
+.is-account-created {
+    color: #3C4F76;
+}
+
+.is-account-created:hover {
+    color: #383F51;
+    text-decoration: none;
+}
+
+.alert-success {
+    color: #DDDBF1;
+    background-color: #3C4F76;
+    border-color: #383F51;
+    text-align: center;
+}
+
+/* /Sign Up | Sign In/ */
+
+/* Email Verification */
+.email-verification__layout {
+    background-color: #F5F5F5;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.email-verification__card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #DDDBF1;
+    background-clip: border-box;
+    border-radius: 0;
+    box-shadow: 0 0 10px #DDDBF1;
+}
+
+.confirm-account {
+    font-size: 20px;
+    color: #383F51;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 2px;
+    border: 1px solid #383F51;
+    display: inline-block;
+    background: #DDDBF1;
+}
+
+/* /Email Verification */
